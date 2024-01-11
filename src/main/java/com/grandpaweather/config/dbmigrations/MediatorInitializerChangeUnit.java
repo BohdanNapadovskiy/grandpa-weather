@@ -70,7 +70,7 @@ public class MediatorInitializerChangeUnit {
         mediators.add(Mediator.createMediatorByNameAndProducts("Купити дощовик/парасолю","Wise advice", wiseAdvice));
         mediators.add(Mediator.createMediatorByNameAndProducts("Змінити резину","Wise advice", getProductIdsByProductNameList(Arrays.asList("Автомобільні шини", "Шиномонтаж"))));
         mediators.add(Mediator.createMediatorByNameAndProducts("Шапочка з фольги","Funny tips", getProductIdsByProductNameList(Arrays.asList("Фольга"))));
-        mediators.add(Mediator.createMediatorByNameAndProducts("Народна медицина","Funny tips", new ArrayList<>()));
+        mediators.add(Mediator.createMediatorByNameAndProducts("Народна медицина","Funny tips", getProductIdsByProductNameList(Arrays.asList("Імбир"))));
         return mediators;
     }
 

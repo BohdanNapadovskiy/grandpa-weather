@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-@ChangeUnit(id = "trigger-initializer", order = "", author = "Bohdan")
+@ChangeUnit(id = "trigger-initializer", order = "3", author = "Bohdan")
 public class TriggerInitializerChangeUnit {
 
     private static final Logger log = LoggerFactory.getLogger(TriggerInitializerChangeUnit.class);
