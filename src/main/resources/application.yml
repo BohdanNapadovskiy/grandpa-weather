@@ -16,17 +16,17 @@ spring:
     config:
       enabled: false
 
-cloud:
-  aws:
-    stack.auto: false
-    region:
-      static: eu-north-1
-      auto: false
-    credentials:
-      instanceProfile: false
-      accessKey: AKIAVRUUXSGC7XWCNJD6
-      secretKey: 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
-    s3bucket: plx-meta-forms
+# cloud:
+#   aws:
+#     stack.auto: false
+#     region:
+#       static: eu-north-1
+#       auto: false
+#     credentials:
+#       instanceProfile: false
+#       accessKey: 
+#       secretKey: 
+#     s3bucket: plx-meta-forms
 
 ---
 spring:
